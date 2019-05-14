@@ -16,10 +16,6 @@
 
 
 
-
-
-
-
 # gcc
 
 编译过程3个阶段：预处理、汇编、连接。
@@ -125,27 +121,39 @@ gcc是如何文件类型？——拖文件扩展名判断文件类型
 
   随后生成了hello文件，则以后再编译时，就不用手动输入gcc -o hello hello.c，直接键入make即可。
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps5.jpg) 
+img 
 
 - 稍微复杂的makefile
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps6.jpg) 
+  ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%872)
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps7.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片2) 
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps8.jpg) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%873)
+
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片3)
+
+ ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%874)
+
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片4) 
 
 ​	target start后面的hello.o代表其下的command依赖与hello.o这个target。所以make先执行了hello.o这个target下的command。
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps9.jpg)当没有.o文件时，先执行编译，后执行链接；但是如果有了.o文件，则直接执行链接。
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%875)
+
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片5)当没有.o文件时，先执行编译，后执行链接；但是如果有了.o文件，则直接执行链接。
 
 ​	在makefile文件中如果有多个标号，只执行第一个标号（除非有依赖关系），若想要执行其他标号，只有指明其标号才行，则需要键入：make 标号
 
 - 进一步完善的makefile
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps10.jpg) 
+  ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%876)
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps11.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片6) 
+
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%877)
+
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片7) 
 
 1）增加了target clean。
 
@@ -153,9 +161,13 @@ gcc是如何文件类型？——拖文件扩展名判断文件类型
 
 - 在makefile执行shell命令：
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps12.jpg) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%879)
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps13.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片9)
+
+ ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8710)
+
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片10) 
 
 ​	增加了@echo，显示编译成功语句，为了不将语句本身输出，所以前面加@符号。
 
@@ -173,27 +185,29 @@ $(varname)
 
 （1）单个变量
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps14.jpg) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8711)
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps15.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片11) 
+
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片12) 
 
 增加变量CC，每个引用变量CC的地方的展开成变量的值。
 
 （2）多个变量
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps16.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片13) 
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps17.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片14) 
 
 （3）更简略的写法
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps18.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片15) 
 
 OBJS=$(SRCS:.c=.o),意思是将SRCS变量中的.c替换为.o。
 
 （4）再次修改makefile
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps19.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片16) 
 
 make定义了一些有用的预定义变量
 
@@ -208,9 +222,9 @@ $<：代表.c和.o关联的时候第一相关的文件，即.c文件
 
 这样做的原因是：当.c文件很多时，无需一个一个添加执行语句到makefile文件中，只需要增加.c文件名即可。例如有相关的两个.c文件——add.c和hello.c，可以这样写makefile：
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps20.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片17) 
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps21.jpg)会自动执行
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片18)会自动执行
 
 - 常见的make出错信息：
 
@@ -232,7 +246,7 @@ $<：代表.c和.o关联的时候第一相关的文件，即.c文件
 
 1. 如果要用gdb调试，gcc编译的时候一定要加-g选项。
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps22.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片19) 
 
 2. core文件是unix/linux通用的出错内存印象文件。但是默认情况下unix/linux时不生成core文件的。
 
@@ -240,11 +254,27 @@ $<：代表.c和.o关联的时候第一相关的文件，即.c文件
 
 ulimit -c unlimited。(修改完.bashrc文件后记得. .bashrc让修改生效)
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps23.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片20) 
 
 使用gdb生成core文件调试案例：
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps24.jpg)![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps25.jpg) 
+```c
+//一个有错的程序
+#include<stdio.h>
+void test(void)
+{
+    int *i = NULL;
+    *i = 2;
+}
+itn main(void)
+{
+    printf("hello world\n");
+    test();
+    return 0;
+}
+```
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps26.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片21) 
+
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片22) 
 
