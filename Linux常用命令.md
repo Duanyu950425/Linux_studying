@@ -150,13 +150,13 @@
 
 （1）在a.txt这和个文件中找所有拥有a的文件
 
-a.txt的内容为：![1557481227545](D:\03 GitHub\Linux_studying\图片\图片5)
+a.txt的内容为：![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%875.png)
 
 ```
 ~/test$ grep a a.txt
 ```
 
-![1557481187325](D:\03 GitHub\Linux_studying\图片\图片6)
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%876.png)
 
 （2）-n的用法——显示匹配行及行号
 
@@ -164,7 +164,7 @@ a.txt的内容为：![1557481227545](D:\03 GitHub\Linux_studying\图片\图片5)
 ~/test$ grep -n a a.txt
 ```
 
-![1557481348567](D:\03 GitHub\Linux_studying\图片\图片7)
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%877.png)
 
 （3）-v的用法——显示不包含匹配文本的所有行
 
@@ -172,7 +172,7 @@ a.txt的内容为：![1557481227545](D:\03 GitHub\Linux_studying\图片\图片5)
 ~/test$ grep -v a a.txt
 ```
 
-![1557481386633](D:\03 GitHub\Linux_studying\图片\图片8)
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%878.png)
 
 ### 8.find——查找文件命令
 
@@ -471,7 +471,7 @@ su - 用户名 //代表的是会将当前工作目录自动切换到切换后的
 
 ——Linux路径表示方法：/abc/a.txt  Linux没有d盘的概念，只有根目录
 
-![img](D:\03 GitHub\Linux_studying\图片\图片9) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%879.png) 
 
 ### 12.通配符
 
@@ -510,9 +510,9 @@ duanyu@duanyu-VirtualBox:/etc$ ls \*
 
 ### 13.linux文件系统
 
-![1557741949893](D:\03 GitHub\Linux_studying\图片\图片10)
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8710.png)
 
-![1557741959839](D:\03 GitHub\Linux_studying\图片\图片11)
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8711.png)
 
 ### 14.文件权限——读、写、可执行权限
 
