@@ -85,7 +85,7 @@
 |  -a  | 显示指定目录下所有子目录与文件，包括隐藏文件 |
 |  -l  |          以长格式显示文件的详细信息          |
 
-![avatar](图片1.png)
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.png)
 
 文件类型："-"表示常规文件；
 
