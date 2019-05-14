@@ -1,8 +1,14 @@
+# 目录
+
+[TOC]
+
+
+
 # gcc
 
 编译过程3个阶段：预处理、汇编、连接。
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml4248\wps1.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\gcc图片1) 
 
 在命令行键入：gcc -o hello hello.c    
 
