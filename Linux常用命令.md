@@ -1,6 +1,6 @@
 # 目录
 
-[TOC]
+[Linux常用命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
 
 #  Linux常用命令
 
