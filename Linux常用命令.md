@@ -1,80 +1,80 @@
 # 目录
 
-[一、 Linux常用命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
+# [一、 Linux常用命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
 
-​		[1. ls——查看文件信息](https://github.com/Duanyu950425/inux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#1-ls%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E4%BF%A1%E6%81%AF)
+## 		[1. ls——查看文件信息](https://github.com/Duanyu950425/inux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#1-ls%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E4%BF%A1%E6%81%AF)
 
-​		[2. more命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#2-more%E5%91%BD%E4%BB%A4)
+## 		[2. more命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#2-more%E5%91%BD%E4%BB%A4)
 
-​		[3. cd——切换工作目录](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#3-cd%E5%88%87%E6%8D%A2%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
+## 		[3. cd——切换工作目录](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#3-cd%E5%88%87%E6%8D%A2%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
 
-​		[4. pwd——显示当前路径](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#4-pwd%E6%98%BE%E7%A4%BA%E5%BD%93%E5%89%8D%E8%B7%AF%E5%BE%84)
+## 		[4. pwd——显示当前路径](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#4-pwd%E6%98%BE%E7%A4%BA%E5%BD%93%E5%89%8D%E8%B7%AF%E5%BE%84)
 
-​		[5. mkdir——新建目录](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#5-mkdir%E6%96%B0%E5%BB%BA%E7%9B%AE%E5%BD%95)
+## 		[5. mkdir——新建目录](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#5-mkdir%E6%96%B0%E5%BB%BA%E7%9B%AE%E5%BD%95)
 
-​		[6. cat命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#6-cat%E5%91%BD%E4%BB%A4)
+## 		[6. cat命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#6-cat%E5%91%BD%E4%BB%A4)
 
-​		[7. grep——指定文件中搜索指定字符内容](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#7-grep%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E4%B8%AD%E6%90%9C%E7%B4%A2%E6%8C%87%E5%AE%9A%E5%AD%97%E7%AC%A6%E5%86%85%E5%AE%B9)
+## 		[7. grep——指定文件中搜索指定字符内容](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#7-grep%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E4%B8%AD%E6%90%9C%E7%B4%A2%E6%8C%87%E5%AE%9A%E5%AD%97%E7%AC%A6%E5%86%85%E5%AE%B9)
 
-​		[8. find——查找文件命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#8find%E6%9F%A5%E6%89%BE%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4)
+## 		[8. find——查找文件命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#8find%E6%9F%A5%E6%89%BE%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4)
 
-​		[9. rm——删除文件或目录](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#9rm%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E6%88%96%E7%9B%AE%E5%BD%95)
+## 		[9. rm——删除文件或目录](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#9rm%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E6%88%96%E7%9B%AE%E5%BD%95)
 
-​		[10. cp——复制文件](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#10cp%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6)
+## 		[10. cp——复制文件](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#10cp%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6)
 
-​		[11. mv——移动或重命名文件](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#11mv%E7%A7%BB%E5%8A%A8%E6%88%96%E9%87%8D%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6)
+## 		[11. mv——移动或重命名文件](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#11mv%E7%A7%BB%E5%8A%A8%E6%88%96%E9%87%8D%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6)
 
-​		[12. clear——清除屏幕命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#12clear%E6%B8%85%E9%99%A4%E5%B1%8F%E5%B9%95%E5%91%BD%E4%BB%A4)
+## 		[12. clear——清除屏幕命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#12clear%E6%B8%85%E9%99%A4%E5%B1%8F%E5%B9%95%E5%91%BD%E4%BB%A4)
 
-​		[13. ps——查看进程信息](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#13ps%E6%9F%A5%E7%9C%8B%E8%BF%9B%E7%A8%8B%E4%BF%A1%E6%81%AF)
+## 		[13. ps——查看进程信息](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#13ps%E6%9F%A5%E7%9C%8B%E8%BF%9B%E7%A8%8B%E4%BF%A1%E6%81%AF)
 
-​		[14. top命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#14top%E5%91%BD%E4%BB%A4)
+## 		[14. top命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#14top%E5%91%BD%E4%BB%A4)
 
-​		[15. whoami——我是谁](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#15whoami%E6%88%91%E6%98%AF%E8%B0%81)
+## 		[15. whoami——我是谁](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#15whoami%E6%88%91%E6%98%AF%E8%B0%81)
 
-​		[16. who命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#16who%E5%91%BD%E4%BB%A4)
+## 		[16. who命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#16who%E5%91%BD%E4%BB%A4)
 
-​		[17. w命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#17w%E5%91%BD%E4%BB%A4)
+## 		[17. w命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#17w%E5%91%BD%E4%BB%A4)
 
-​		[18. tar——归档管理](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#18tar%E5%BD%92%E6%A1%A3%E7%AE%A1%E7%90%86)
+## 		[18. tar——归档管理](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#18tar%E5%BD%92%E6%A1%A3%E7%AE%A1%E7%90%86)
 
-​		[19. gzip——文件压缩命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#19gzip%E6%96%87%E4%BB%B6%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4)
+## 		[19. gzip——文件压缩命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#19gzip%E6%96%87%E4%BB%B6%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4)
 
-​		[20. man——联机帮助命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#20man%E8%81%94%E6%9C%BA%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4)
+## 		[20. man——联机帮助命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#20man%E8%81%94%E6%9C%BA%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4)
 
-[二、 Linux系统管理](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#linux%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86)
+# [二、 Linux系统管理](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#linux%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86)
 
-​		[1. df命令——查看磁盘使用情况](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#1df%E5%91%BD%E4%BB%A4%E6%9F%A5%E7%9C%8B%E7%A3%81%E7%9B%98%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5)
+## 		[1. df命令——查看磁盘使用情况](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#1df%E5%91%BD%E4%BB%A4%E6%9F%A5%E7%9C%8B%E7%A3%81%E7%9B%98%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5)
 
-​		[2. du命令——查看指定目录的文件大小](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#2du%E5%91%BD%E4%BB%A4%E6%9F%A5%E7%9C%8B%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F)
+## 		[2. du命令——查看指定目录的文件大小](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#2du%E5%91%BD%E4%BB%A4%E6%9F%A5%E7%9C%8B%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F)
 
-​		[3. sudo命令——权限管理机制](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#3sudo%E5%91%BD%E4%BB%A4%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E6%9C%BA%E5%88%B6)
+## 		[3. sudo命令——权限管理机制](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#3sudo%E5%91%BD%E4%BB%A4%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E6%9C%BA%E5%88%B6)
 
-​		[4. mkfs命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#4mkfs%E5%91%BD%E4%BB%A4)
+## 		[4. mkfs命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#4mkfs%E5%91%BD%E4%BB%A4)
 
-​		[5. rpm工具安装应用程序](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#5rpm%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F)
+## 		[5. rpm工具安装应用程序](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#5rpm%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F)
 
-​		[6. 添加用户账号——useradd或adduser](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#6%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7%E8%B4%A6%E5%8F%B7useradd%E6%88%96adduser)
+## 		[6. 添加用户账号——useradd或adduser](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#6%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7%E8%B4%A6%E5%8F%B7useradd%E6%88%96adduser)
 
-​		[7. passwd——设置用户密码：passwd [参数] 用户名](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#7passwd%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81passwd-%E5%8F%82%E6%95%B0-%E7%94%A8%E6%88%B7%E5%90%8D)
+## 		[7. passwd——设置用户密码：passwd [参数] 用户名](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#7passwd%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81passwd-%E5%8F%82%E6%95%B0-%E7%94%A8%E6%88%B7%E5%90%8D)
 
-​		[8. userdel——删除用户：userdel [-r] [用户名]](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#8userdel%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7userdel--r-%E7%94%A8%E6%88%B7%E5%90%8D)
+## 		[8. userdel——删除用户：userdel [-r] [用户名]](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#8userdel%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7userdel--r-%E7%94%A8%E6%88%B7%E5%90%8D)
 
-​		[9. Linux创建用户、设置密码、修改用户、删除用户命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#9linux%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7%E8%AE%BE%E7%BD%AE%E5%AF%86%E7%A0%81%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7%E5%91%BD%E4%BB%A4)
+## 		[9. Linux创建用户、设置密码、修改用户、删除用户命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#9linux%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7%E8%AE%BE%E7%BD%AE%E5%AF%86%E7%A0%81%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7%E5%91%BD%E4%BB%A4)
 
-​		[10. su——命令切换用户](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#10su%E5%91%BD%E4%BB%A4%E5%88%87%E6%8D%A2%E7%94%A8%E6%88%B7)
+## 		[10. su——命令切换用户](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#10su%E5%91%BD%E4%BB%A4%E5%88%87%E6%8D%A2%E7%94%A8%E6%88%B7)
 
-​		[11. 路径表示](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#11%E8%B7%AF%E5%BE%84%E8%A1%A8%E7%A4%BA)
+## 		[11. 路径表示](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#11%E8%B7%AF%E5%BE%84%E8%A1%A8%E7%A4%BA)
 
-​		[12. 通配符](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#12%E9%80%9A%E9%85%8D%E7%AC%A6)
+## 		[12. 通配符](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#12%E9%80%9A%E9%85%8D%E7%AC%A6)
 
-​		[13. linux文件系统](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#13linux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)
+## 		[13. linux文件系统](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#13linux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)
 
-​		[14. 文件权限——读、写、可执行权限](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#14%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E8%AF%BB%E5%86%99%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%9D%83%E9%99%90)
+## 		[14. 文件权限——读、写、可执行权限](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#14%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E8%AF%BB%E5%86%99%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%9D%83%E9%99%90)
 
-​		[15. chmod——修改文件访问权限](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#15chmod%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90)
+## 		[15. chmod——修改文件访问权限](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#15chmod%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90)
 
-[三、 实用工具——vi](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7vi)
+# [三、 实用工具——vi](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7vi)
 
 #  Linux常用命令
 
@@ -150,7 +150,9 @@
 
 （1）在a.txt这和个文件中找所有拥有a的文件
 
-a.txt的内容为：![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%875.png)
+a.txt的内容为：
+
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%875.png)
 
 ```
 ~/test$ grep a a.txt
