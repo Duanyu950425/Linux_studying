@@ -125,23 +125,21 @@ img
 
 - 稍微复杂的makefile
 
-  ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%872)
-
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片2) 
+ ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%872)
 
 ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%873)
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片3)
+
 
  ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%874)
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片4) 
+ 
 
 ​	target start后面的hello.o代表其下的command依赖与hello.o这个target。所以make先执行了hello.o这个target下的command。
 
 ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%875)
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片5)当没有.o文件时，先执行编译，后执行链接；但是如果有了.o文件，则直接执行链接。
+当没有.o文件时，先执行编译，后执行链接；但是如果有了.o文件，则直接执行链接。
 
 ​	在makefile文件中如果有多个标号，只执行第一个标号（除非有依赖关系），若想要执行其他标号，只有指明其标号才行，则需要键入：make 标号
 
@@ -149,11 +147,11 @@ img
 
   ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%876)
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片6) 
+ 
 
 ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%877)
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片7) 
+ 
 
 1）增加了target clean。
 
@@ -163,11 +161,11 @@ img
 
 ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%879)
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片9)
+
 
  ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8710)
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片10) 
+ 
 
 ​	增加了@echo，显示编译成功语句，为了不将语句本身输出，所以前面加@符号。
 
@@ -187,27 +185,29 @@ $(varname)
 
 ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8711)
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片11) 
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片12) 
+
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8712) 
+
+ 
 
 增加变量CC，每个引用变量CC的地方的展开成变量的值。
 
 （2）多个变量
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片13) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8713)  
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片14) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8714)  
 
 （3）更简略的写法
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片15) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8715)  
 
 OBJS=$(SRCS:.c=.o),意思是将SRCS变量中的.c替换为.o。
 
 （4）再次修改makefile
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片16) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8716)  
 
 make定义了一些有用的预定义变量
 
@@ -222,9 +222,11 @@ $<：代表.c和.o关联的时候第一相关的文件，即.c文件
 
 这样做的原因是：当.c文件很多时，无需一个一个添加执行语句到makefile文件中，只需要增加.c文件名即可。例如有相关的两个.c文件——add.c和hello.c，可以这样写makefile：
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片17) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8717) 
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片18)会自动执行
+ ![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8718) 
+
+会自动执行
 
 - 常见的make出错信息：
 
@@ -246,7 +248,7 @@ $<：代表.c和.o关联的时候第一相关的文件，即.c文件
 
 1. 如果要用gdb调试，gcc编译的时候一定要加-g选项。
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片19) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8719)  
 
 2. core文件是unix/linux通用的出错内存印象文件。但是默认情况下unix/linux时不生成core文件的。
 
@@ -254,7 +256,7 @@ $<：代表.c和.o关联的时候第一相关的文件，即.c文件
 
 ulimit -c unlimited。(修改完.bashrc文件后记得. .bashrc让修改生效)
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片20) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8720)  
 
 使用gdb生成core文件调试案例：
 
@@ -274,7 +276,7 @@ itn main(void)
 }
 ```
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片21) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8721)  
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片22) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%8722)  
 
