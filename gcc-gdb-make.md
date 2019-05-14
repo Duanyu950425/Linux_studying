@@ -1,6 +1,22 @@
 # 目录
 
-[TOC]
+# [gcc](https://github.com/Duanyu950425/Linux_studying/blob/master/gcc-gdb-make.md#gcc)
+
+## [gcc常用选项](https://github.com/Duanyu950425/Linux_studying/blob/master/gcc-gdb-make.md#gcc%E5%B8%B8%E7%94%A8%E9%80%89%E9%A1%B9)
+
+# [make](https://github.com/Duanyu950425/Linux_studying/blob/master/gcc-gdb-make.md#make)
+
+# [gdb——调试](https://github.com/Duanyu950425/Linux_studying/blob/master/gcc-gdb-make.md#gdb%E8%B0%83%E8%AF%95)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8,7 +24,7 @@
 
 编译过程3个阶段：预处理、汇编、连接。
 
-![img](D:\03 GitHub\Linux_studying\图片\gcc图片1) 
+![avatar](https://github.com/Duanyu950425/Linux_studying/blob/master/%E5%9B%BE%E7%89%87/gcc%E5%9B%BE%E7%89%871) 
 
 在命令行键入：gcc -o hello hello.c    
 
