@@ -2,6 +2,80 @@
 
 [Linux常用命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
 
+​		[ls——查看文件信息](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#1-ls%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E4%BF%A1%E6%81%AF)
+
+​		[more命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#2-more%E5%91%BD%E4%BB%A4)
+
+​		[cd——切换工作目录](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#3-cd%E5%88%87%E6%8D%A2%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
+
+​		[pwd——显示当前路径](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#4-pwd%E6%98%BE%E7%A4%BA%E5%BD%93%E5%89%8D%E8%B7%AF%E5%BE%84)
+
+​		[mkdir——新建目录](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#5-mkdir%E6%96%B0%E5%BB%BA%E7%9B%AE%E5%BD%95)
+
+​		[cat命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#6-cat%E5%91%BD%E4%BB%A4)
+
+​		[grep——指定文件中搜索指定字符内容](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#7-grep%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E4%B8%AD%E6%90%9C%E7%B4%A2%E6%8C%87%E5%AE%9A%E5%AD%97%E7%AC%A6%E5%86%85%E5%AE%B9)
+
+​		[find——查找文件命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#8find%E6%9F%A5%E6%89%BE%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4)
+
+​		[rm——删除文件或目录](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#9rm%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E6%88%96%E7%9B%AE%E5%BD%95)
+
+​		[cp——复制文件](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#10cp%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6)
+
+​		[mv——移动或重命名文件](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#11mv%E7%A7%BB%E5%8A%A8%E6%88%96%E9%87%8D%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6)
+
+​		[clear——清除屏幕命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#12clear%E6%B8%85%E9%99%A4%E5%B1%8F%E5%B9%95%E5%91%BD%E4%BB%A4)
+
+​		[ps——查看进程信息](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#13ps%E6%9F%A5%E7%9C%8B%E8%BF%9B%E7%A8%8B%E4%BF%A1%E6%81%AF)
+
+​		[top命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#14top%E5%91%BD%E4%BB%A4)
+
+​		[whoami——我是谁](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#15whoami%E6%88%91%E6%98%AF%E8%B0%81)
+
+​		[who命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#16who%E5%91%BD%E4%BB%A4)
+
+​		[w命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#17w%E5%91%BD%E4%BB%A4)
+
+​		[tar——归档管理](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#18tar%E5%BD%92%E6%A1%A3%E7%AE%A1%E7%90%86)
+
+​		[gzip——文件压缩命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#19gzip%E6%96%87%E4%BB%B6%E5%8E%8B%E7%BC%A9%E5%91%BD%E4%BB%A4)
+
+​		[man——联机帮助命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#20man%E8%81%94%E6%9C%BA%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4)
+
+[Linux系统管理](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#linux%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86)
+
+​		[df命令——查看磁盘使用情况](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#1df%E5%91%BD%E4%BB%A4%E6%9F%A5%E7%9C%8B%E7%A3%81%E7%9B%98%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5)
+
+​		[du命令——查看指定目录的文件大小](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#2du%E5%91%BD%E4%BB%A4%E6%9F%A5%E7%9C%8B%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F)
+
+​		[sudo命令——权限管理机制](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#3sudo%E5%91%BD%E4%BB%A4%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E6%9C%BA%E5%88%B6)
+
+​		[mkfs命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#4mkfs%E5%91%BD%E4%BB%A4)
+
+​		[rpm工具安装应用程序](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#5rpm%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F)
+
+​		[添加用户账号——useradd或adduser](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#6%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7%E8%B4%A6%E5%8F%B7useradd%E6%88%96adduser)
+
+​		[passwd——设置用户密码：passwd [参数] 用户名](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#7passwd%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81passwd-%E5%8F%82%E6%95%B0-%E7%94%A8%E6%88%B7%E5%90%8D)
+
+​		[userdel——删除用户：userdel [-r] [用户名]](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#8userdel%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7userdel--r-%E7%94%A8%E6%88%B7%E5%90%8D)
+
+​		[Linux创建用户、设置密码、修改用户、删除用户命令](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#9linux%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7%E8%AE%BE%E7%BD%AE%E5%AF%86%E7%A0%81%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7%E5%91%BD%E4%BB%A4)
+
+​		[su——命令切换用户](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#10su%E5%91%BD%E4%BB%A4%E5%88%87%E6%8D%A2%E7%94%A8%E6%88%B7)
+
+​		[路径表示](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#11%E8%B7%AF%E5%BE%84%E8%A1%A8%E7%A4%BA)
+
+​		[通配符](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#12%E9%80%9A%E9%85%8D%E7%AC%A6)
+
+​		[linux文件系统](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#13linux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)
+
+​		[文件权限——读、写、可执行权限](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#14%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E8%AF%BB%E5%86%99%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%9D%83%E9%99%90)
+
+​		[chmod——修改文件访问权限](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#15chmod%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90)
+
+[实用工具——vi](https://github.com/Duanyu950425/Linux_studying/blob/master/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md#%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7vi)
+
 #  Linux常用命令
 
 ### 1. ls——查看文件信息
@@ -11,7 +85,7 @@
 |  -a  | 显示指定目录下所有子目录与文件，包括隐藏文件 |
 |  -l  |          以长格式显示文件的详细信息          |
 
-![1557393966009](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557393966009.png)
+![avatar](图片1.png)
 
 文件类型："-"表示常规文件；
 
@@ -69,17 +143,20 @@
 
 ### 7. grep——指定文件中搜索指定字符内容
 
-![1557395663929](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557395663929.png)
+| 参数 |            含义            |
+| ---- | :------------------------: |
+| -v   | 显示不包含匹配文本的所有行 |
+| -n   |      显示匹配行及行号      |
 
 （1）在a.txt这和个文件中找所有拥有a的文件
 
-a.txt的内容为：![1557481227545](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557481227545.png)
+a.txt的内容为：![1557481227545](D:\03 GitHub\Linux_studying\图片\图片5)
 
 ```
 ~/test$ grep a a.txt
 ```
 
-![1557481187325](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557481187325.png)
+![1557481187325](D:\03 GitHub\Linux_studying\图片\图片6)
 
 （2）-n的用法——显示匹配行及行号
 
@@ -87,7 +164,7 @@ a.txt的内容为：![1557481227545](C:\Users\12201\AppData\Roaming\Typora\typor
 ~/test$ grep -n a a.txt
 ```
 
-![1557481348567](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557481348567.png)
+![1557481348567](D:\03 GitHub\Linux_studying\图片\图片7)
 
 （3）-v的用法——显示不包含匹配文本的所有行
 
@@ -95,11 +172,14 @@ a.txt的内容为：![1557481227545](C:\Users\12201\AppData\Roaming\Typora\typor
 ~/test$ grep -v a a.txt
 ```
 
-![1557481386633](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557481386633.png)
+![1557481386633](D:\03 GitHub\Linux_studying\图片\图片8)
 
 ### 8.find——查找文件命令
 
-![1557481395530](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557481395530.png)
+| 参数             | 含义                           |
+| ---------------- | ------------------------------ |
+| -name <filename> | 指定搜索的文件名，输出搜索结果 |
+| -user <username> | 搜索指定用户所属的文件         |
 
 例如：
 
@@ -110,7 +190,11 @@ a.txt的内容为：![1557481227545](C:\Users\12201\AppData\Roaming\Typora\typor
 
 ### 9.rm——删除文件或目录
 
-![1557481671493](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557481671493.png)
+| 参数 | 含义                                 |
+| ---- | ------------------------------------ |
+| -i   | 已进行交互方式执行                   |
+| -f   | 强制删除，忽略不存在的文件，无需提示 |
+| -r   | 递归地删除目录下的内容               |
 
 ### 10.cp——复制文件
 
@@ -118,7 +202,12 @@ a.txt的内容为：![1557481227545](C:\Users\12201\AppData\Roaming\Typora\typor
 
 ——cp [参数] 源文件或目录 目标文件或目录
 
-![1557481714507](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557481714507.png)
+| 参数 | 含义                                                         |
+| ---- | ------------------------------------------------------------ |
+| -a   | 该选项通常在复制目录时使用，它保留链接、文件属性，并递归地复制目录 |
+| -f   | 删除已经存在的目标文件而不提示                               |
+| -i   | 交互式复制，在覆盖目标文件之前将给出提示要求用户确认         |
+| -r   | 若给出的源文件是目录文件，则cp将递归复制该目录下的所有子目录和文件，目标文件必须为一个目录名 |
 
 例如：我们将文件a.txt复制到目录day01下（已知a.txt/home/duanyu/test1下的文件，而test2与test1在同一个目录下）：
 
@@ -128,7 +217,10 @@ a.txt的内容为：![1557481227545](C:\Users\12201\AppData\Roaming\Typora\typor
 
 ### 11.mv——移动或重命名文件
 
-![1557482033564](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557482033564.png)
+| 参数 | 含义                                                         |
+| ---- | ------------------------------------------------------------ |
+| -i   | 交互方式操作，如果mv操作将导致对已存在的目标文件的覆盖，系统会询问是否重写，要求用户回答以避免误覆盖文件 |
+| -f   | 禁止交互式操作，如有覆盖也不会给出提示                       |
 
 例如：重命名test2目录下的a.txt文件为b.txt：
 
@@ -146,7 +238,13 @@ a.txt的内容为：![1557481227545](C:\Users\12201\AppData\Roaming\Typora\typor
 
 ### 13.ps——查看进程信息
 
-### ![1557738336205](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557738336205.png)
+| 参数 | 含义                                     |
+| ---- | ---------------------------------------- |
+| -a   | 显示终端上的所有进程，包括其他用户的进程 |
+| -u   | 显示进程的详细状态                       |
+| -x   | 显示没有控制终端的进程                   |
+| -w   | 显示加宽，以便显示更多的信息             |
+| -r   | 只显示正在运行的进程                     |
 
 ```
 ~$ ps -u root  //看root用户的进程
@@ -161,7 +259,15 @@ a.txt的内容为：![1557481227545](C:\Users\12201\AppData\Roaming\Typora\typor
 
 top命令执行后，可以按下按键得到对显示的结果进行排序：
 
-![1557738429713](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557738429713.png)
+```
+“M”键：根据内存使用量来排序
+“P”键：根据CPU占有率来排序
+“T”键：根据进程运行时间的长短来排序
+“U”键：可以根据后面输入的用户名来筛选进程
+“K”键：可以根据后面输入的PID来杀死进程
+“q”键：退出
+“h”键：获得帮助
+```
 
 ### 15.whoami——我是谁
 
@@ -169,19 +275,35 @@ top命令执行后，可以按下按键得到对显示的结果进行排序：
 
 ——查看当前所有登录系统的用户信息：who [选项]
 
-![1557738952998](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557738952998.png)
+| 参数          | 含义                                               |
+| ------------- | -------------------------------------------------- |
+| -m或am I      | 只显示运行who命令的用户名、登录终端和登录时间      |
+| -q或--count   | 只显示用户的登录账号和登录用户的数量               |
+| -u            | 在登录时间后显示该用户最后一次操作到当前的时间间隔 |
+| -u或--heading | 显示列标题                                         |
 
 ### 17.w命令
 
 ——该命令也可以查看登录当前系统的用户信息。与who命令相比，w命令的功能更强大，它不但可以显示当前有哪些用户登录到系统，还可以显示浙西而用户正在进行的操作，病给出更加详细和科学的统计数据。w [选项] [用户名]
 
-![1557738997991](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557738997991.png)
+| 参数 | 含义                                           |
+| ---- | ---------------------------------------------- |
+| -h   | 不显示各列的标题                               |
+| -l   | 显示详细信息列表，此为预设值                   |
+| -s   | 使用短列表，不显示用户登录时间、JCPU和PCPU时间 |
+| -u   | 忽略执行程序的名称，以及该程序的PCPU时间       |
 
 ### 18.tar——归档管理
 
 ——tar [参数] 打包文件名 文件
 
-![1557739068165](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557739068165.png)
+| 参数 | 含义                   |
+| ---- | ---------------------- |
+| -c   | 生成档案文件           |
+| -v   | 列出档案解档的详细过程 |
+| -f   | 指定档案文件名称       |
+| -t   | 列出档案中包含的文件   |
+| -x   | 解开档案文件           |
 
 tar只打包不压缩，把多个文件打包成一个文件。
 
@@ -196,7 +318,9 @@ tar只打包不压缩，把多个文件打包成一个文件。
 
 ——tar和gzip命令结合使用时限文件打包，归档：gzip [选项] 被压缩文件
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml17388\wps1.jpg)
+| 参数 | 含义 |
+| ---- | ---- |
+| -d   | 解压 |
 
 压缩：
 
@@ -261,7 +385,12 @@ duanyu@duanyu-VirtualBox:~$ du -h my2.sql
 
 ​      mkfs [选项] 设备文件名 [blocks]
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml17388\wps2.jpg)
+| 参数    | 含义                                   |
+| ------- | -------------------------------------- |
+| -V      | 详细显示模式                           |
+| -t<.fs> | 指定文件系统类型，默认值为ext2         |
+| -c      | 在创建文件系统的同时，进行磁盘坏块检查 |
+| blocks  | 文件系统块的大小                       |
 
 ### 5.rpm工具安装应用程序
 
@@ -269,7 +398,14 @@ duanyu@duanyu-VirtualBox:~$ du -h my2.sql
 
 rpm常用参数：
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml17388\wps3.jpg) 
+| 参数 | 含义                            |
+| ---- | ------------------------------- |
+| -i   | 指定安装的软件包                |
+| -h   | 使用“#”显示详细的安装过程及进度 |
+| -v   | 显示安装的详细信息              |
+| -q   | 查询系统是否已安装指定的软件包  |
+| -a   | 查看系统已安装的所有软件包      |
+| -e   | 卸载软件包                      |
 
 安装软件：rpm -ivh 安装包的名称
 
@@ -277,7 +413,9 @@ rpm常用参数：
 
 ——useradd [参数] 新建用户账号
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml17388\wps4.jpg) 
+| 参数         | 含义                                                         |
+| ------------ | ------------------------------------------------------------ |
+| -d <dirname> | 指定用户登录系统时的主目录，如果不适用该参数，系统自动在/home目录下简历与用户名同名目录为主目录 |
 
 添加用户，指定用户的宿主目录为/home/test：
 
@@ -333,7 +471,7 @@ su - 用户名 //代表的是会将当前工作目录自动切换到切换后的
 
 ——Linux路径表示方法：/abc/a.txt  Linux没有d盘的概念，只有根目录
 
-![img](file:///C:\Users\12201\AppData\Local\Temp\ksohtml17388\wps5.jpg) 
+![img](D:\03 GitHub\Linux_studying\图片\图片9) 
 
 ### 12.通配符
 
@@ -372,9 +510,9 @@ duanyu@duanyu-VirtualBox:/etc$ ls \*
 
 ### 13.linux文件系统
 
-![1557741949893](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557741949893.png)
+![1557741949893](D:\03 GitHub\Linux_studying\图片\图片10)
 
-![1557741959839](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557741959839.png)
+![1557741959839](D:\03 GitHub\Linux_studying\图片\图片11)
 
 ### 14.文件权限——读、写、可执行权限
 
@@ -458,7 +596,10 @@ root@duanyu-Virtual:~# chmod 0777 abc.tar.gz
 
 ——使用delete键来删除**当前的字符**；
 
-![1557744350004](C:\Users\12201\AppData\Roaming\Typora\typora-user-images\1557744350004.png)
+| 按键 | 功能                   |
+| ---- | ---------------------- |
+| x    | 删除当前光标所在的字符 |
+| dd   | 删除光标所在的行       |
 
 X 代表删除当前光标所在的字符
 
